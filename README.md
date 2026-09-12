@@ -70,7 +70,11 @@ Docker 学习路线 ──── 独立成线（后端方向的天然搭配：�
 ## 🔧 工程规范
 
 - 提交遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/)：`<type>(<scope>): <描述>`（`docs` / `chore` 等，见提交历史）
-- 文档大改后同步更新头部时长/版本声明，保持"声明与事实一致"
+- 文档大改后同步更新头部时长/版本声明，保持“声明与事实一致”
+
+## 🙏 致谢
+
+本合集的学习路线由 [pi](https://github.com/earendil-works/pi)（AI agent 工具链）与 [GLM](https://github.com/zai-org/GLM-5)（智谱大语言模型）协作生成：素材抓取核实、内容编排与一致性审查由 pi 驱动 GLM 完成，方向决策与最终把关由作者负责。相关提交以 Co-authored-by 尾注署名。
 
 ## 📌 内容说明
 
