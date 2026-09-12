@@ -6,10 +6,10 @@
 
 | 文档 | 定位 | 前置 | 总时长 |
 |---|---|---|---|
-| [`TypeScript学习路线.md`](./TypeScript学习路线.md) | 主线：零基础 → TS 类型系统全量（含类型体操、装饰器）→ Node.js 后端工程实战 | 无（JS 亦零基础） | 约 31 天 × 4~5h |
-| [`TypeScript前端学习路线.md`](./TypeScript前端学习路线.md) | 专项：React 方向——DOM/lib.dom、.tsx 规则、组件/Hooks 类型化、前端工程化 | 主线阶段一~七 | 约 10 天 × 4~5h |
+| [`typescript_start/TypeScript学习路线.md`](./typescript_start/TypeScript学习路线.md) | 主线：零基础 → TS 类型系统全量（含类型体操、装饰器）→ Node.js 后端工程实战 | 无（JS 亦零基础） | 约 31 天 × 4~5h |
+| [`typescript_start/TypeScript前端学习路线.md`](./typescript_start/TypeScript前端学习路线.md) | 专项：React 方向——DOM/lib.dom、.tsx 规则、组件/Hooks 类型化、前端工程化 | 主线阶段一~七 | 约 10 天 × 4~5h |
 | [`golang_start/GO学习路线.md`](./golang_start/GO学习路线.md) | Go 语言：零基础 → 并发编程 → 数据库 / Gin Web 服务与毕业实战 | 无 | 约 6~7 周 × 1~2h |
-| [`Docker学习路线.md`](./Docker学习路线.md) | Docker：macOS 零基础 → Dockerfile / Compose / Swarm 集群运维进阶 | 无 | 约 21 天 × 1.5~2h |
+| [`docker_start/Docker学习路线.md`](./docker_start/Docker学习路线.md) | Docker：macOS 零基础 → Dockerfile / Compose / Swarm 集群运维进阶 | 无 | 约 21 天 × 1.5~2h |
 
 ## 🗺️ 路线关系
 
@@ -57,11 +57,13 @@ Docker 学习路线 ──── 独立成线（后端方向的天然搭配：�
 
 ```
 .
-├── TypeScript学习路线.md        # TS 主线（Node.js 后端方向）
-├── TypeScript前端学习路线.md    # TS 前端专项（React）
-├── Docker学习路线.md            # Docker（macOS 运维进阶）
+├── typescript_start/
+│   ├── TypeScript学习路线.md        # TS 主线（Node.js 后端方向）
+│   └── TypeScript前端学习路线.md    # TS 前端专项（React）
+├── docker_start/
+│   └── Docker学习路线.md            # Docker（macOS 运维进阶）
 ├── golang_start/
-│   └── GO学习路线.md            # Go 语言
+│   └── GO学习路线.md                # Go 语言
 └── .pi/skills/learning-path/    # 生成本合集的学习路线技能定义
 ```
 
