@@ -10,6 +10,7 @@
 | [`typescript_start/TypeScript前端学习路线.md`](./typescript_start/TypeScript前端学习路线.md) | 专项：React 方向——DOM/lib.dom、.tsx 规则、组件/Hooks 类型化、前端工程化 | 主线阶段一~七 | 约 10 天 × 4~5h |
 | [`golang_start/GO学习路线.md`](./golang_start/GO学习路线.md) | Go 语言：零基础 → 并发编程 → 数据库 / Gin Web 服务与毕业实战 | 无 | 约 6~7 周 × 1~2h |
 | [`docker_start/Docker学习路线.md`](./docker_start/Docker学习路线.md) | Docker：macOS 零基础 → Dockerfile / Compose / Swarm 集群运维进阶 | 无 | 约 21 天 × 1.5~2h |
+| [`vim_start/Vim常用命令学习路线.md`](./vim_start/Vim常用命令学习路线.md) | Vim：零基础一天 → 模式/移动/删改/替换/多文件常用命令熟练 | 无 | 约 7.5h × 1 天 |
 
 ## 🗺️ 路线关系
 
@@ -57,6 +58,7 @@ Docker 学习路线 ──── 独立成线（后端方向的天然搭配：�
 
 ```
 .
+├── AGENTS.md                        # 项目约束（agent 与贡献者生效）
 ├── typescript_start/
 │   ├── TypeScript学习路线.md        # TS 主线（Node.js 后端方向）
 │   └── TypeScript前端学习路线.md    # TS 前端专项（React）
@@ -64,13 +66,21 @@ Docker 学习路线 ──── 独立成线（后端方向的天然搭配：�
 │   └── Docker学习路线.md            # Docker（macOS 运维进阶）
 ├── golang_start/
 │   └── GO学习路线.md                # Go 语言
+├── vim_start/
+│   └── Vim常用命令学习路线.md       # Vim（一日速成）
 └── .pi/skills/learning-path/    # 生成本合集的学习路线技能定义
 ```
+
+> 约定：所有生成的 Markdown 文档必须存放在 `<主题>_start/` 目录中（详见 [AGENTS.md](./AGENTS.md)）。
 
 ## 🔧 工程规范
 
 - 提交遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/)：`<type>(<scope>): <描述>`（`docs` / `chore` 等，见提交历史）
 - 文档大改后同步更新头部时长/版本声明，保持“声明与事实一致”
+
+## 📐 文档存放约定
+
+生成的 Markdown 文档一律存放在以 `_start` 结尾的文件夹（`<主题>_start/`）中，不落在仓库根目录；详见 [AGENTS.md](./AGENTS.md)。
 
 ## 🙏 致谢
 
